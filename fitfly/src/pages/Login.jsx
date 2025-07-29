@@ -1,7 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // for linking to Signup
+import { Link, useNavigate } from 'react-router-dom'; // for linking to Signup
+import { loginUser } from '../utils/auth';
+
 
 const Login = () => {
+
+  const navigate = useNavigate();
+
+  const handleLogin = () => {
+    loginUser();
+    navigate('/dashboard')
+
+  }
+ 
+
+  
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
       <div className="w-full max-w-sm bg-white p-6 rounded shadow">
@@ -21,7 +34,7 @@ const Login = () => {
           </div>
 
           {/* Login Button */}
-          <button type="submit" className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition">Login</button>
+          <button onClick={handleLogin} className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition">Login</button>
         </form>
 
         {/* Link to Signup */}
