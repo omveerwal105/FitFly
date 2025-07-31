@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import { isLoggedIn } from '../utils/auth';
+import { Link } from 'react-router-dom';
 
 const Workout = () => {
   const navigate = useNavigate();
@@ -54,7 +55,10 @@ const Workout = () => {
             ))}
           </div>
         </div>
+        <Link to="/workout-planner" className="text-blue-600 hover:underline">Go to Workout Planner</Link>
       </main>
+      
+
     </div>
   );
 };
