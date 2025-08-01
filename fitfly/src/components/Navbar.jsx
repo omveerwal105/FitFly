@@ -18,6 +18,7 @@ const Navbar = () => {
             <h1 className='text-xl font-bold text-blue-600'>FitFly</h1>
             <nav className='space-x-4 text-sm text-gray-600'>
                 <Link to='/' className='hover:text-blue-600'>Home</Link>
+                <Link to ='/profile' className='hover:text-blue-600'>Profile</Link>
                 {!loggedIn && (
                     <Link to='/login' className='hover:text-blue-600'>Login</Link>
                 )}

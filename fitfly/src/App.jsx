@@ -9,6 +9,7 @@ import Progress from './pages/Progress'
 import Nutrition from './pages/Nutrition'
 import Goals from './pages/Goals'
 import WorkoutPlanner from './pages/WorkoutPlanner'
+import Profile from './pages/Profile'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Route path='/progress'element = {<Progress />} />
       <Route path='/nutrition'element = {<Nutrition />} />
       <Route path='/goals'element = {<Goals />} />
+      <Route path='/profile'element = {<Profile />} />
       </Routes>
     </>
   )
