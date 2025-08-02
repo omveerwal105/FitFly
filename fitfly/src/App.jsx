@@ -10,6 +10,7 @@ import Nutrition from './pages/Nutrition'
 import Goals from './pages/Goals'
 import WorkoutPlanner from './pages/WorkoutPlanner'
 import Profile from './pages/Profile'
+import BMI from './pages/BMI'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Route path='/workout' element = {<Workout />} />
       <Route path='/workout-planner' element = {<WorkoutPlanner />} />
       <Route path='/progress'element = {<Progress />} />
+      <Route path='/bmi' element = {<BMI />} />
       <Route path='/nutrition'element = {<Nutrition />} />
       <Route path='/goals'element = {<Goals />} />
       <Route path='/profile'element = {<Profile />} />

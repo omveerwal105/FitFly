@@ -5,6 +5,7 @@ import { isLoggedIn } from '../utils/auth';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid
 } from 'recharts';
+import BMI from './BMI';
 
 
 const Progress = () => {
@@ -84,6 +85,10 @@ const Progress = () => {
               </BarChart>
             </ResponsiveContainer>
           </div>
+
+          
+          <h3 className="text-xl font-semibold mt-10 mb-4">Body Metrics 📉</h3>
+          <BMI />
 
 
         </div>
