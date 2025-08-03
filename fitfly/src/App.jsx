@@ -11,6 +11,7 @@ import Goals from './pages/Goals'
 import WorkoutPlanner from './pages/WorkoutPlanner'
 import Profile from './pages/Profile'
 import BMI from './pages/BMI'
+import Community from './pages/Community'
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <Route path='/nutrition'element = {<Nutrition />} />
       <Route path='/goals'element = {<Goals />} />
       <Route path='/profile'element = {<Profile />} />
+      <Route path='/community'element = {<Community />} />
       </Routes>
     </>
   )
