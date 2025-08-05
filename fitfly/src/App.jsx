@@ -13,6 +13,7 @@ import Profile from './pages/Profile'
 import BMI from './pages/BMI'
 import Community from './pages/Community'
 import ActivityLog from './pages/ActivityLog'
+import WorkoutDetails from './pages/WorkoutDetails'
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
       <Route path='/profile'element = {<Profile />} />
       <Route path='/community'element = {<Community />} />
       <Route path ='/activity-log'element = {<ActivityLog />} />
+      <Route path='/workouts/:title' element = {<WorkoutDetails />} />
       </Routes>
     </>
   )
