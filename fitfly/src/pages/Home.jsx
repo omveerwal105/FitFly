@@ -11,7 +11,7 @@ const Home = () => {
             {/* hero section */}
 
             <section className='flex-1 p-6 text-center'>
-                <img src="/sly.jpeg" alt="hero" className="mx-auto mb-4" />
+                <img src="/sly.jpeg" alt="hero" className="mx-auto mb-4"style={{width : '200px' , height : '200px'}} />
                 <h2 className='text-2xl font-semibold'>Achieve your fitness goals</h2>
                 <p className='text-gray-600 mt-2'>Track workouts, monitor diet, and stay consistent with ease.</p>
                 <button className='bg-blue-600 mt-4 text-white px-4 py-2 rounded shadow hover:bg-blue-700'>Get Started</button>
