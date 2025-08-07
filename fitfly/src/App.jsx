@@ -14,6 +14,7 @@ import BMI from './pages/BMI'
 import Community from './pages/Community'
 import ActivityLog from './pages/ActivityLog'
 import WorkoutDetails from './pages/WorkoutDetails'
+import SavedWorkout from './pages/SavedWorkout'
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
       <Route path='/community'element = {<Community />} />
       <Route path ='/activity-log'element = {<ActivityLog />} />
       <Route path='/workouts/:title' element = {<WorkoutDetails />} />
+      <Route path ='/saved'element = {<SavedWorkout />} />
       </Routes>
     </>
   )

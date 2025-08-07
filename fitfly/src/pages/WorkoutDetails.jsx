@@ -91,6 +91,13 @@ const WorkoutDetails = () => {
 
                     )}
                 </ul>
+                <button
+                    onClick={() => alert('Workout Saved (dummy action)')}
+                    className="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
+                >
+                    Save Workout
+                </button>
+
             </div>
         </div>
     )

@@ -28,7 +28,7 @@ const Dashboard = () => {
             <div className='flex flex-1'>
                 <Sidebar />
 
-                <main className='flex-1 p-6 bg-gray-100'>
+                <main className='flex-1 p-6 bg-red-400'>
                     <div className='max-w-6xl mx-auto'>
                         <h2 className='text-xl font-semibold mb-6'>Hi Om 👋, Ready to workout?</h2>
 
